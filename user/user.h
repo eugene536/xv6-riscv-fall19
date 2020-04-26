@@ -1,6 +1,9 @@
 struct stat;
 struct rtcdate;
 
+#define CLOCKS_PER_SEC 10
+#define NULL            0
+
 // system calls
 int fork(void);
 int exit(int) __attribute__((noreturn));
